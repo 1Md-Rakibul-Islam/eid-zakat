@@ -139,3 +139,74 @@ header{
     color: gray;
     margin-top: 15px;
 }
+
+.image__giallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.image__content{
+    width: 350px;
+    height: auto;
+    margin: 10px 15px;
+}
+
+.image__content img{
+    width: 100%;
+}
+
+.donation__contents{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.donation__cart{
+    width: 280px;
+    height: auto;
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+.donation__cart__decription{
+    margin: 15px;
+    
+}
+
+.donation__cart__decription p{
+    margin-bottom: 12px;
+
+}
+
+.donation__cart img{
+    width: 100%;
+}
+
+#see__more {
+    color: tomato;
+    font-size: 1.4rem;
+}
+
+
+
+footer{
+    width: 100vw;
+    height: 30vh;
+    background-color: rgb(64, 5, 64);
+    color: tomato;
+    text-align: center;
+    font-size: 1.3rem;
+    border-top-left-radius: 150px;
+}
+
+.footer__contents{
+    padding-top: 40px;
+}
+
+.footer__contents span{
+    color: aliceblue;
+}
