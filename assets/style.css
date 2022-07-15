@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+    
+}
+
+.container{
+    margin: 0 10%;
+    padding: 10% 0;
+}
+
+.section__heding h1{
+    font-size: 3.7rem;
+}
+.section__decription p{
+    font-size: 1.2rem;
+    margin: 50px 0;
+    color: gray;
+}
+
+
+header{
+    width: 100%;
+    height: 100vh;
+
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.77), rgba(255, 255, 255, 0)), url('/assets/images/top-banner-bg.png') fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.header__text{
+    width: 40vw;
+    color: aliceblue;
+}
+
+#header__pra{
+    color: rgba(240, 255, 255, 0.843);
+}
+
+.header__text h1{
+    font-size: 4rem;
+    
+}
+.header__text p{
+    font-size: 1.4rem;
+
+}
+
+.section__header{
+    width: 50vw;
+    text-align: center;
+    margin-bottom: 100px;
+    margin: auto;
+}
+
+#primary__btn{
+    text-decoration: none;
+    background-color: red;
+    padding: 15px 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+#header__pra{
+    margin: 50px 0;
+}
+
+.donate__contents{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.live__donate__content{
+    width: 500px;
+    height: 400px;
+}
+
+
+.survive__contents{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.survive__content{
+    width: 400px;
+    height: auto;
+}
+
+
+
+.service__contents{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.service__content{
+    display: flex;
+    width: 500px;
+    height: auto;
+    margin: 20px;
+    padding: 40px;
+    background-color: bisque;
+    border-radius: 10px;
+    font-size: 1.3rem;
+
+}
+
+.service__content:hover {
+    transform: translateY(-10px);
+    background-color: palegreen;
+}
+
+.serivice__icon img{
+    width: 45px;
+    height: 45px;
+}
+
+.service__content_box{
+    padding: 0 20px;
+}
+
+.service__text{
+    width: 100%;
+}
+
+.service__content{
+    background-color: bisque;
+
+}
+
+.service__text p{
+    color: gray;
+    margin-top: 15px;
+}
